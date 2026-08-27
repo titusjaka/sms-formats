@@ -1,7 +1,7 @@
-Deposit:\s+([A-Z]{3})(\d[\d\s.,]*[.,]\d{2})\s+[A-Z0-9]+\*{3}(\d{4})(?:[A-Z]{3})?\s+Balance:\s+([A-Z]{3})(-?\d[\d\s.,]*[.,]\d{2})\s+(\d{2}\.\d{2}\.\d{4})
+Deposit:\s+([A-Z]{3})(\d[\d\s.,]*[.,]\d{2})\s+[A-Z0-9]+\*{3}(\d{4})([A-Z]{3})\s+Balance:\s+(?:[A-Z]{3})(-?\d[\d\s.,]*[.,]\d{2})\s+(\d{2}\.\d{2}\.\d{4})
 
 -----COLUMNS-----
-instrument;income;syncid;acc_instrument;balance;date#dMy
+instrument;income;syncid;acc_instrument;av_balance;date#dMy
 
 -----EXAMPLE-----
 Deposit: USD1,800.00 GE40***0471USD Balance: USD3,778.68 19.08.2026
